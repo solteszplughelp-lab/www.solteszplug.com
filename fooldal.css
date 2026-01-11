@@ -1,0 +1,93 @@
+h2,
+h6 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    margin-bottom: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.borito img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+
+.balenciaga {
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px 40px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.cimsor {
+    text-align: center;
+}
+
+.cimsor2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.meretek {
+    margin-top: 1000px;
+}
+
+.alsoindex {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+p {
+    color: white;
+}
+
+.termekkep{
+  display: flex;              /* inline-block helyett */
+  flex-direction: column;
+  height: 100%;               /* minden kártya kitölti az oszlop magasságát */
+  padding: 10px;
+  background: whitesmoke;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .12);
+  border-radius: 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: #111;
+}
+
+.termekkep img{
+  width: 100%;
+  height: 200px;              /* állítsd ízlés szerint */
+  object-fit: cover;          /* ne torzuljon */
+  border-radius: 14px;
+}
+
+.termekkep .alsoindex2{
+  margin-top: auto;           /* ár mindig alul */
+}
+
+
