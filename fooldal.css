@@ -59,35 +59,40 @@ h3 {
 
 
 body {
-    background-color: rgb(37, 37, 37);
+
+    background: #000000;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 3%, rgba(130, 130, 130, 1) 75%, rgba(255, 255, 255, 1) 100%);
 }
 
 p {
-    color: white;
+    color: black;
 }
 
-.termekkep{
-  display: flex;              /* inline-block helyett */
-  flex-direction: column;
-  height: 100%;               /* minden kártya kitölti az oszlop magasságát */
-  padding: 10px;
-  background: whitesmoke;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, .12);
-  border-radius: 20px;
-  border: 1px solid black;
-  text-decoration: none;
-  color: #111;
+.termekkep {
+    display: flex;
+    /* inline-block helyett */
+    flex-direction: column;
+    height: 100%;
+    /* minden kártya kitölti az oszlop magasságát */
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .12);
+    border-radius: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #111;
 }
 
-.termekkep img{
-  width: 100%;
-  height: 200px;              /* állítsd ízlés szerint */
-  object-fit: cover;          /* ne torzuljon */
-  border-radius: 14px;
+.termekkep img {
+    width: 100%;
+    height: 200px;
+    /* állítsd ízlés szerint */
+    object-fit: cover;
+    /* ne torzuljon */
+    border-radius: 14px;
 }
 
-.termekkep .alsoindex2{
-  margin-top: auto;           /* ár mindig alul */
+.termekkep .alsoindex2 {
+    margin-top: auto;
+    /* ár mindig alul */
 }
-
-
